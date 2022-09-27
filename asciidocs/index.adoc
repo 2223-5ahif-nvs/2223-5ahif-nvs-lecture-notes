@@ -1,4 +1,23 @@
-= Index page
+= Lecture Notes 22-23 / 5ahif / nvs
+Thomas W. Stütz
+1.0.0, {docdate}: Verteilte Systeme
 ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
 
-image::img.png[]
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Lehrplan
+
+* https://www.ris.bka.gv.at/Dokumente/Begut/BEGUT_COO_2026_100_2_672313/COO_2026_100_2_674362.pdf[Lehrplan^]
+
+== 2022-09-23
+
