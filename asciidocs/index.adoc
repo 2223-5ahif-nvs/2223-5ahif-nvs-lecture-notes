@@ -21,3 +21,66 @@ ifdef::backend-html5[]
 
 == 2022-09-23
 
+== 2022-09-30
+
+=== Übung - Keycloak am oravm
+
+==== Abgabe
+
+* https://classroom.github.com/a/vV9KMCL9
+
+==== Aufgabenstellung
+
+===== Manuelle Installation
+
+* Installieren sie auf Ihrer oravm Docker und docker-compose
+
+* Installieren Sie keycloak mit einer postgres-db für die Benutzerdaten
+
+* Zwischenergebnis: Keycloak funktioniert mit http
+
+* Installieren Sie in einer eigenen docker-compose - Konfiguration den Traefik-router, um https zu erhalten.
+
+* Zwischenergebnis: Keycloak funktioniert mit https
+
+* Begründen sie die Wahl Ihrer Konfiguration
+
+===== CI/CD
+
+* Erstellen Sie ein github-repo mit einer entsprechen github-actions Konfigurationsdatei mit sprechendem Namen
+
+IMPORTANT: Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basis Quarkus -> vereinfachte Konfiguration)
+
+===== für Spezialisten: Anbindung an AD und WebUntis
+
+==== Vorgangsweise
+
+* Bereiten Sie die oravm vor
+** Docker und docker-compose
+
+* Starten Sie den Keycloak mit https://www.keycloak.org/server/containers[docker^]
+
+* Probieren Sie die Authentication mit einer einfachen Quarkus Applikation aus.
+** Diese Applikation kann lokal deployed sein.
+** Oder man fügt die Quarkus App dem docker-compose - config des Keycloak hinzu
+
+==== Ressourcen
+
+* https://keycloak.discourse.group/t/need-help-to-start-with-keycloak-19-andpostgres-in-docker-compose/16749/3
+
+* https://gauthier-cassany.com/posts/setup-keycloak-docker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
