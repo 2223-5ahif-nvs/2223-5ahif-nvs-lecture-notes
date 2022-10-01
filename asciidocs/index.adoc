@@ -40,6 +40,7 @@ ifdef::backend-html5[]
 * Zwischenergebnis: Keycloak funktioniert mit http
 
 * Installieren Sie in einer eigenen docker-compose - Konfiguration den Traefik-router, um https zu erhalten.
+** Verwenden Sie letsencrypt
 
 * Zwischenergebnis: Keycloak funktioniert mit https
 
@@ -70,7 +71,9 @@ IMPORTANT: Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basi
 
 * https://gauthier-cassany.com/posts/setup-keycloak-docker
 
+* https://traefik.io/traefik/
 
+* https://www.teqqy.de/traefik-letsencrypt-tutorial/
 
 
 
