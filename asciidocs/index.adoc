@@ -77,8 +77,17 @@ IMPORTANT: Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basi
 
 
 
+== 2022-10-06 (SYP Stunde getauscht))
 
+* Kurs Android (Film)
+** Jetpack Compose Grundlagen
+** Recomposition
+** States
 
+== 2022-10-07
+
+* Kurs Android (Film)
+** States
 
 
 
