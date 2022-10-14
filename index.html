@@ -445,7 +445,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Thomas W. Stütz</span><br>
 <span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2022-10-07</span>
+<span id="revdate">2022-10-14</span>
 <br><span id="revremark">Verteilte Systeme</span>
 </div>
 <div id="toc" class="toc2">
@@ -460,6 +460,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_2022_10_06_syp_stunde_getauscht">4. 2022-10-06 (SYP Stunde getauscht))</a></li>
 <li><a href="#_2022_10_07">5. 2022-10-07</a></li>
+<li><a href="#_2022_10_14">6. 2022-10-14</a>
+<ul class="sectlevel2">
+<li><a href="#_room">6.1. Room</a></li>
+<li><a href="#_dagger_hilt">6.2. Dagger / Hilt</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -657,11 +663,55 @@ Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basis Quarkus &
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2022_10_14"><a class="anchor" href="#_2022_10_14"></a>6. 2022-10-14</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_room"><a class="anchor" href="#_room"></a>6.1. Room</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Library für Android Jetpack &#8594; OR-Mapper &#8594; Object Relational Mapper</p>
+<div class="ulist">
+<ul>
+<li>
+<p>im Gegensatz zu JDBC, welche Resulsets (Tabellen) zurückgibt. Die Java-Objekte müssen manuelle erstellt werden (mit <code>new</code>)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>entspricht JPA (Java Persistence API)</p>
+</li>
+<li>
+<p>dient zum objektorientierten Erstellen / Zugriff auf lokale SQL-Datenbanken (sqlite)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Stacktrace</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>gradlew --warning-mode all --stacktrace</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dagger_hilt"><a class="anchor" href="#_dagger_hilt"></a>6.2. Dagger / Hilt</h3>
+
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2022-10-07 10:41:25 UTC
+Last updated 2022-10-14 16:07:05 UTC
 </div>
 </div>
 </body>
