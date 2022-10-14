@@ -90,9 +90,21 @@ IMPORTANT: Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basi
 ** States
 
 
+== 2022-10-14
+
+=== Room
+
+** Library für Android Jetpack -> OR-Mapper -> Object Relational Mapper
+*** im Gegensatz zu JDBC, welche Resulsets (Tabellen) zurückgibt. Die Java-Objekte müssen manuelle erstellt werden (mit `new`)
+** entspricht JPA (Java Persistence API)
+** dient zum objektorientierten Erstellen / Zugriff auf lokale SQL-Datenbanken (sqlite)
 
 
+* Stacktrace
+
+----
+gradlew --warning-mode all --stacktrace
+----
 
 
-
-
+=== Dagger / Hilt
