@@ -8,4 +8,5 @@ import at.htl.todo.data.models.ToDoTask
 abstract class ToDoDatabase: RoomDatabase() {
 
     abstract fun toDoDao(): ToDoDao
+
 }

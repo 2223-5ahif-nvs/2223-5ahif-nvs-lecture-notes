@@ -106,5 +106,7 @@ IMPORTANT: Beachten Sie, dass Sie eine neue Keycloak Version verwenden (auf Basi
 gradlew --warning-mode all --stacktrace
 ----
 
+image::kurs-stand-vor-herbstferien.png[]
+
 
 === Dagger / Hilt
