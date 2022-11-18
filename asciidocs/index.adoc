@@ -110,3 +110,9 @@ image::kurs-stand-vor-herbstferien.png[]
 
 
 === Dagger / Hilt
+
+== 2022-11-18
+
+* Android Navigation
+
+* Android bis Sektion 20 - List Screen FAB
